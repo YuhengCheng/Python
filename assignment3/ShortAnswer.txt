@@ -1,0 +1,9 @@
+Question 1:
+Due to each role having different behaviours and different restrictions, not all users will have use for all  the methods or even have all the same methods. Nor will they act in the same way. 
+At that point it is not useful to inherit useless methods if we will need to create many new ones in the end due to the different access and different abilities of each user. Due to need of writing so many new methods,
+you are better off makingeach type ofuser its own class, like student its own class rather than a subclass of user.
+
+Question 2:
+Due to all the cheese having the basic requirement of needing to move and are represented through the same coordinate system, it would be good to make the abstract 
+ChessPiece abstract to implement the an abstract move method and other conditions that all chess piecees must follow. This can then be overridden to the piece's more specific movement conditions such as just the diagonals 
+for the bishops and the L shape for the knights and theability in which chess pieces can take others..
